@@ -98,35 +98,46 @@ header p{
   display: flex;
   align-items: center;
   margin-left: 60px;
+  margin-top: 30px;
   font-family: "Raleway";
 }
 
 
 .icone-localisation {
-  background-color: grey;
+  background-color: #f2f2f2;
   background-image: url("images/icone-localisation.png");
   background-repeat: no-repeat;
-  background-position: 7px 7px;
-  border-radius: 15px;
-  height: 50px;
-  width: 50px;
+  background-position: 18px 12px;
+  border: solid #f2f2f2 1px;
+  border-right: 0;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;  
+  height: 54px;
+  width: 65px;
 
 }
 
 
 .votre-ville {
-  background-color: white;
   width: 230px;
   height: 50px;
-  border-radius: 15px;
-  
+  font-size: 18px;
+  padding-left: 15px;  
+  border: solid #f2f2f2 1px;
+  border-left: 0;
+  border-right: 0;
 }
+
 .Rechercher {
   background-color: #0065fc;
-  border-radius: 15px;
+  border: solid #f2f2f2 1px;
+  border-left: 0;
+  border-right: 0;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
   width: 150px;
-  height: 50px;
-  font-size: 15px;
+  height: 56px;
+  font-size: 18px;
   color: white;
   
 
