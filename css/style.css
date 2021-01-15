@@ -1,0 +1,130 @@
+/* Les icônes proviennent de la bibliothèque Font Awesome. 
+Les couleurs de la charte sont le bleu #0065FC, et 
+sa version plus claire #DEEBFF ainsi que le gris pour le fond #F2F2F2.
+La police du site est Raleway.
+  */
+
+/* Police */
+
+
+@font-face {
+
+  font-family: "Raleway";
+  src: url("polices/raleway.eot"),
+       url("polices/raleway.eot#?iefix") format('embedded-opentype'),
+       url("polices/Raleway/raleway.woff") format('woff'), 
+       url("polices/raleway.ttf") format('truetype'), 
+       url("polices/raleway.svg") format('svg'); 
+
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* Eléments principaux de la page */
+
+body{
+  width: 1450px;
+  padding: 0;
+  margin: 0;
+}
+header {
+  width: 1450px;
+  font-family: "Raleway";
+}
+
+header div {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 1450px;
+margin-top: 50px;
+
+}
+
+header img{
+width: 100px;
+margin-left: 60px;
+margin-bottom: 50px;
+}
+
+/* Menu de navigation  */
+
+nav ul{
+  list-style-type: none;
+  justify-content: space-between;
+  display: flex;
+  width: 400px;   
+}
+
+nav li{
+    margin-right: 15px;
+}
+
+nav a{
+    font-size: 20px;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+    font-family: "Raleway";
+    color: #0e65fc;
+
+}
+
+nav a:hover{
+    color: #000000;
+}
+
+header h1{
+  font-family: "Raleway";
+  width: 580px;
+  font-size: 22px;
+  font-weight: bolder;
+  margin-left: 60px;
+}
+
+header p{
+  font-family: "Raleway";
+  width: 300px;
+  font-size: 15px;
+  margin-left: 60px;
+
+
+}
+
+/* Formulaire de recherche */
+
+
+.formulaire {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+}
+
+
+.icone-localisation {
+  background-color: grey;
+  border-radius: 15px;
+  height: 50px;
+  width: 50px;
+
+}
+
+
+.votre-ville {
+  background-color: white;
+  width: 230px;
+  height: 50px;
+  border-radius: 15px;
+  
+}
+.Rechercher {
+  background-color: #0065fc;
+  border-radius: 15px;
+  width: 150px;
+  height: 50px;
+  font-size: 15px;
+  color: white;
+  font-family: "Raleway";
+
+   
+}
