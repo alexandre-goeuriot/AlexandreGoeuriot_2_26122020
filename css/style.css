@@ -26,10 +26,10 @@ body{
   width: 1450px;
   padding: 0;
   margin: 0;
+  font-family: "Raleway";
 }
 header {
   width: 1450px;
-  font-family: "Raleway";
 }
 
 header div {
@@ -77,13 +77,12 @@ nav a:hover{
 header h1{
   font-family: "Raleway";
   width: 580px;
-  font-size: 22px;
+  font-size: 1.4em;
   font-weight: bolder;
   margin-left: 60px;
 }
 
-header p{
-  font-family: "Raleway";
+header p {
   width: 300px;
   font-size: 15px;
   margin-left: 60px;
@@ -99,7 +98,6 @@ header p{
   align-items: center;
   margin-left: 60px;
   margin-top: 30px;
-  font-family: "Raleway";
 }
 
 
@@ -108,7 +106,7 @@ header p{
   background-image: url("images/icone-localisation.png");
   background-repeat: no-repeat;
   background-position: 18px 12px;
-  border: solid #f2f2f2 1px;
+  border: solid #d9d9d9 1px;
   border-right: 0;
   border-bottom-left-radius: 15px;
   border-top-left-radius: 15px;  
@@ -120,17 +118,17 @@ header p{
 
 .votre-ville {
   width: 230px;
-  height: 50px;
+  height: 55px;
   font-size: 18px;
   padding-left: 15px;  
-  border: solid #f2f2f2 1px;
+  border: solid #d9d9d9 1px;
   border-left: 0;
   border-right: 0;
 }
 
 .Rechercher {
   background-color: #0065fc;
-  border: solid #f2f2f2 1px;
+  border: solid #d9d9d9 1px;
   border-left: 0;
   border-right: 0;
   border-bottom-right-radius: 15px;
@@ -140,6 +138,33 @@ header p{
   font-size: 18px;
   color: white;
   
-
-   
 }
+
+/* Filtres */
+
+
+.Filtres{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-top: 30px;
+ }
+
+ div h2{
+   width: 50px;
+   font-size: 20px;
+   font-weight: bold;
+ }
+
+
+
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+  border: 2px solid #d9d9d9;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition-duration: 0.1s;
+  font-weight: bold;
