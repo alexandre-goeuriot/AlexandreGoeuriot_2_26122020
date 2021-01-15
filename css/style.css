@@ -98,11 +98,15 @@ header p{
   display: flex;
   align-items: center;
   margin-left: 60px;
+  font-family: "Raleway";
 }
 
 
 .icone-localisation {
   background-color: grey;
+  background-image: url("images/icone-localisation.png");
+  background-repeat: no-repeat;
+  background-position: 7px 7px;
   border-radius: 15px;
   height: 50px;
   width: 50px;
@@ -124,7 +128,7 @@ header p{
   height: 50px;
   font-size: 15px;
   color: white;
-  font-family: "Raleway";
+  
 
    
 }
