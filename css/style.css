@@ -1,14 +1,4 @@
-/* Les icônes proviennent de la bibliothèque Font Awesome. 
-Les couleurs de la charte sont le bleu #0065FC, et 
-sa version plus claire #DEEBFF ainsi que le gris pour le fond #F2F2F2.
-La police du site est Raleway.
-  */
-
-/* Police */
-
-
 @font-face {
-
   font-family: "Raleway";
   src: url("polices/raleway.eot"),
        url("polices/raleway.eot#?iefix") format('embedded-opentype'),
@@ -20,31 +10,27 @@ La police du site est Raleway.
   font-weight: normal;
 }
 
+
 /* Eléments principaux de la page */
 
 body{
-  width: 1450px;
+  max-width: 1450px;
   padding: 0;
-  margin: 0;
   font-family: "Raleway";
+  margin: 0 auto;
 }
-header {
-  width: 1450px;
-}
+
+
 
 header div {
 display: flex;
 justify-content: space-between;
 align-items: center;
-width: 1450px;
 margin-top: 50px;
-
 }
 
 header img{
 width: 100px;
-margin-left: 60px;
-margin-bottom: 50px;
 }
 
 /* Menu de navigation  */
@@ -56,9 +42,7 @@ nav ul{
   width: 400px;   
 }
 
-nav li{
-    margin-right: 15px;
-}
+
 
 nav a{
     font-size: 20px;
@@ -66,8 +50,7 @@ nav a{
     padding-bottom: 3px;
     text-decoration: none;
     font-family: "Raleway";
-    color: #0e65fc;
-
+    color: #0065fc;
 }
 
 nav a:hover{
@@ -79,15 +62,11 @@ header h1{
   width: 580px;
   font-size: 1.4em;
   font-weight: bolder;
-  margin-left: 60px;
 }
 
 header p {
   width: 300px;
   font-size: 15px;
-  margin-left: 60px;
-
-
 }
 
 /* Formulaire de recherche */
@@ -96,7 +75,6 @@ header p {
 .formulaire {
   display: flex;
   align-items: center;
-  margin-left: 60px;
   margin-top: 30px;
 }
 
@@ -112,7 +90,6 @@ header p {
   border-top-left-radius: 15px;  
   height: 54px;
   width: 65px;
-
 }
 
 
@@ -137,7 +114,8 @@ header p {
   height: 56px;
   font-size: 18px;
   color: white;
-  
+  cursor: pointer;
+  transition-duration: 0.2s;
 }
 
 /* Filtres */
@@ -147,8 +125,9 @@ header p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 60px;
+  align-items: center;
   margin-top: 30px;
+  list-style: none;
  }
 
  div h2{
@@ -157,7 +136,8 @@ header p {
    font-weight: bold;
  }
 
- div.Filtres input{
+
+.Filtres li{
   width: 200px;
   height: 50px;
   border: solid #d9d9d9 1px;
@@ -165,6 +145,7 @@ header p {
   text-align: center;
   font-weight: bold;
   font-size: 15px;
-
- }
-
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+ 
