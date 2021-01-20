@@ -163,9 +163,9 @@ header p {
  }
 
  .Filtres-Description {
-margin-left: 20px; 
-margin-right: 20px;
-}
+  margin-left: 20px; 
+  margin-right: 20px;
+  }
 
 .Resultats {
   display: flex;
@@ -194,23 +194,39 @@ margin-right: 20px;
   justify-content: space-between;
 }
 
+/* Article */
+
 .Hebergements{
   background-color: #f2f2f2;
-  height: 630px;
+  height: 570px;
   width: 880px;
   border-radius: 1.5rem;
   padding: 20px;
+}
 
+.Hebergements h2{
+  margin-left: 10px;
+}
+
+.Liste-Carte{
+display: flex;
+flex-wrap: wrap;
+margin-left: 10px;
 }
 
 article.Cartes{
   width: 250px;
-  height: 200px;
+  height: 170px;
   background-color: white;
   padding-left: 10px;
   padding-top: 7px;
   padding-bottom: 20px;
+  margin-right: 30px;
+  margin-bottom: 30px;
   border-radius: 1.25rem;
+  box-shadow: 0 0 16px #0000002e;
+
+
 }
 
 a {
@@ -221,10 +237,37 @@ a {
 
 .Images-Cartes {
   border-radius: 1rem 1rem 0 0;
+  margin-bottom: 5px;
 }
 
-  
+h3{
+  font-weight: bolder;
+  margin: 0;
+  margin-bottom: 5px;
+  margin-left: 10px;
 
+
+}
+
+p.Hebergements-Liste {
+  margin: 0;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.Icone-Star {
+  margin-left: 10px;
+}
+.fa-star[data-active=true] {
+  color: #0065FC;
+}
+
+a.Plus{
+  margin-left: 15px;
+  font-weight: bolder;
+}
+
+/* Aside */
 
 
 aside {
