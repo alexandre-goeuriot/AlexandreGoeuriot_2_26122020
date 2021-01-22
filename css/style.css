@@ -38,6 +38,7 @@ nav ul{
   justify-content: space-between;
   display: flex;
   width: 400px;   
+  
 }
 
 
@@ -52,7 +53,10 @@ nav a{
 }
 
 nav a:hover{
-    color: #000000;
+  color: #0065fc;
+  border-top: 3px solid #0065fc;
+  padding-top: 30px;
+
 }
 
 header h1{
@@ -144,7 +148,7 @@ header p {
     transition-duration: 0.2s;
     font-weight: bold;
     margin-right: 2rem;
-
+   
  }
 
  .Filtres-Icon {
@@ -192,6 +196,8 @@ header p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 40px;
+
 }
 
 /* Article */
@@ -329,6 +335,8 @@ padding: 20px;
 
 .Activités{
   display: flex;
+  margin-top: 40px;
+  margin-bottom: 70px;
 }
 .Activités img{
   border-radius: 1.25rem 1.25rem 0 0;
@@ -351,21 +359,21 @@ padding: 20px;
     box-shadow: 0 0 16px #0000002e;
 }
 .Minor-Left{
-margin-left: 60px;
+margin-left: 70px;
 }
 
 .Pomegues {
-  width: 245px;
-  height: 320px;
+  width: 300px;
+  height: 290px;
   background-color: white;
   border-radius: 1.25rem;
   box-shadow: 0 0 16px #0000002e;
-  margin-bottom: 15px;
+  margin-bottom: 50px;
 }
 
 .Frioul {
-  width: 245px;
-  height: 185px;
+  width: 300px;
+  height: 180px;
   background-color: white;
   border-radius: 1.25rem;
   box-shadow: 0 0 16px #0000002e;
@@ -375,7 +383,7 @@ margin-left: 60px;
 .Activités-Right {
   display: flex;
   max-width: 650px;
-  margin-left: 60px;
+  margin-left: 90px;
 }
 
 .Calanques{
@@ -386,21 +394,21 @@ margin-left: 60px;
     box-shadow: 0 0 16px #0000002e;
 }
 .Minor-Right{
-margin-left: 60px;
+margin-left: 70px;
 }
 
 .Garde {
-  width: 245px;
-  height: 320px;
+  width: 300px;
+  height: 230px;
   background-color: white;
   border-radius: 1.25rem;
   box-shadow: 0 0 16px #0000002e;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
 }
 
 .Longchamp {
-  width: 245px;
-  height: 185px;
+  width: 300px;
+  height: 250px;
   background-color: white;
   border-radius: 1.25rem;
   box-shadow: 0 0 16px #0000002e;
@@ -423,6 +431,9 @@ footer ul{
   list-style: none;
 }
 
+footer li{
+  margin-bottom: 10px;
+}
 
 .A_Propos{
   width: 33%;
