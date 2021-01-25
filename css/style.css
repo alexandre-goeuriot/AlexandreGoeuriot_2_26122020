@@ -191,7 +191,7 @@ header p {
   margin-bottom: 40px;
 }
 
-/* Article */
+/* Article (Hebergements) */
 
 .Hebergements{
   background-color: #f2f2f2;
@@ -263,7 +263,7 @@ a.Plus{
   font-weight: bolder;
 }
 
-/* Aside */
+/* Aside (populaires) */
 
 
 .Populaires {
@@ -323,9 +323,14 @@ padding: 20px;
 
 .Activités{
   display: flex;
+  flex-wrap: wrap;
   margin-top: 40px;
   margin-bottom: 70px;
+  column-gap: 70px;
+
 }
+
+
 
 .Activités img{
   border-radius: 1.25rem 1.25rem 0 0;
@@ -338,8 +343,11 @@ padding: 20px;
 
 .Activités-Left {
   display: flex;
-  max-width: 650px;
+  flex-wrap: wrap;
+  column-gap: 70px;
+
 }
+
 
 .Vieux{
     width: 300px;
@@ -347,10 +355,7 @@ padding: 20px;
     background-color: white;
     border-radius: 1.25rem;
     box-shadow: 0 0 16px #0000002e;
-}
 
-.Minor-Left{
-margin-left: 70px;
 }
 
 .Pomegues {
@@ -359,7 +364,8 @@ margin-left: 70px;
   background-color: white;
   border-radius: 1.25rem;
   box-shadow: 0 0 16px #0000002e;
-  margin-bottom: 50px;
+  margin-bottom: 45px;
+
 }
 
 .Frioul {
@@ -373,8 +379,9 @@ margin-left: 70px;
 
 .Activités-Right {
   display: flex;
-  max-width: 650px;
-  margin-left: 90px;
+  flex-wrap: wrap;
+  column-gap: 70px;
+
 }
 
 .Calanques{
@@ -385,9 +392,7 @@ margin-left: 70px;
     box-shadow: 0 0 16px #0000002e;
 }
 
-.Minor-Right{
-margin-left: 70px;
-}
+
 
 .Garde {
   width: 300px;
@@ -395,7 +400,7 @@ margin-left: 70px;
   background-color: white;
   border-radius: 1.25rem;
   box-shadow: 0 0 16px #0000002e;
-  margin-bottom: 40px;
+  margin-bottom: 45px;
 }
 
 .Longchamp {
@@ -405,6 +410,7 @@ margin-left: 70px;
   border-radius: 1.25rem;
   box-shadow: 0 0 16px #0000002e;
 }
+
 /* Footer */
 
 footer{
