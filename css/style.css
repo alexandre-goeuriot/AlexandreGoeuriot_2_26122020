@@ -37,11 +37,11 @@ nav ul{
   list-style-type: none;
   justify-content: space-between;
   display: flex;
-  width: 400px;   
-  
 }
 
-
+nav li{
+  margin-left: 40px;
+}
 
 nav a{
     font-size: 20px;
@@ -61,25 +61,21 @@ nav a:hover{
 
 header h1{
   font-family: "Raleway";
-  width: 580px;
   font-size: 1.4em;
   font-weight: bolder;
 }
 
 header p {
-  width: 300px;
   font-size: 15px;
 }
 
 /* Formulaire de recherche */
-
 
 .formulaire {
   display: flex;
   align-items: center;
   margin-top: 30px;
 }
-
 
 .Icone-Map{
   background-color: #f2f2f2;
@@ -94,7 +90,6 @@ header p {
   align-items: center;
   justify-content: center
 }
-
 
 .votre-ville {
   width: 230px;
@@ -123,7 +118,6 @@ header p {
 
 /* Filtres */
 
-
 .Filtres{
   display: flex;
   flex-wrap: wrap;
@@ -135,7 +129,6 @@ header p {
   flex-wrap: wrap;
   margin-bottom: 2rem;
   margin-right: 2rem;
-
  }
 
  .Liste-Filtres {
@@ -148,7 +141,6 @@ header p {
     transition-duration: 0.2s;
     font-weight: bold;
     margin-right: 2rem;
-   
  }
 
  .Filtres-Icon {
@@ -163,7 +155,6 @@ header p {
   justify-content: center;
   margin: -2px;
   color: #0065fc;
-
  }
 
  .Filtres-Description {
@@ -194,17 +185,16 @@ header p {
 
 .Article-Aside {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 40px;
-
 }
 
 /* Article */
 
 .Hebergements{
   background-color: #f2f2f2;
-  height: 570px;
   width: 880px;
   border-radius: 1.5rem;
   padding: 20px;
@@ -226,13 +216,11 @@ margin-left: 10px;
   background-color: white;
   padding-left: 10px;
   padding-top: 7px;
-  padding-bottom: 20px;
+  padding-bottom: 45px;
   margin-right: 30px;
   margin-bottom: 30px;
   border-radius: 1.25rem;
   box-shadow: 0 0 16px #0000002e;
-
-
 }
 
 a {
@@ -259,6 +247,10 @@ p.Hebergements-Liste {
   margin-left: 10px;
 }
 
+.strong {
+font-weight: bolder;
+}
+
 .Icone-Star {
   margin-left: 10px;
 }
@@ -276,7 +268,6 @@ a.Plus{
 
 .Populaires {
 background-color: #f2f2f2;
-height: 570px;
 width: 430px;
 border-radius: 1.5rem;
 padding: 20px;
@@ -294,11 +285,8 @@ padding: 20px;
   font-size: 1.8rem;
 }
 
-
-
 .Cartes-Wrap {
   display: flex;
-  height: 130px;
   background-color: white;
   padding-left: 7px;
   padding-top: 7px;
@@ -338,6 +326,7 @@ padding: 20px;
   margin-top: 40px;
   margin-bottom: 70px;
 }
+
 .Activités img{
   border-radius: 1.25rem 1.25rem 0 0;
 }
@@ -346,6 +335,7 @@ padding: 20px;
   margin-left: 20px;
   font-weight: bolder;
 }
+
 .Activités-Left {
   display: flex;
   max-width: 650px;
@@ -358,6 +348,7 @@ padding: 20px;
     border-radius: 1.25rem;
     box-shadow: 0 0 16px #0000002e;
 }
+
 .Minor-Left{
 margin-left: 70px;
 }
@@ -393,6 +384,7 @@ margin-left: 70px;
     border-radius: 1.25rem;
     box-shadow: 0 0 16px #0000002e;
 }
+
 .Minor-Right{
 margin-left: 70px;
 }
@@ -419,10 +411,11 @@ footer{
   background-color: #f2f2f2;
   display: flex;
   width: 100%;
-  
 }
 
+
 footer h3{
+  
   margin-left: 40px;
   font-weight: bolder;
   }
@@ -441,10 +434,8 @@ footer li{
 
 .Nos_hebergements{
   width: 33%;
-
 }
 
 .Assistance {
   width: 33%;
-
 }
