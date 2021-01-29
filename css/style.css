@@ -415,13 +415,19 @@ padding: 20px;
 
 footer{
   background-color: #f2f2f2;
+}
+
+#Colonne{
   display: flex;
-  width: 100%;
+  flex-direction: row;
+  height: auto;
+  width: auto;
 }
 
 
-footer h3{
-  
+footer h2{
+  display: flex;
+  justify-content: space-between;
   margin-left: 40px;
   font-weight: bolder;
   }
@@ -431,6 +437,7 @@ footer ul{
 }
 
 footer li{
+  display: list-item;
   margin-bottom: 10px;
 }
 

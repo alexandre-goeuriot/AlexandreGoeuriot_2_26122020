@@ -1,0 +1,16 @@
+/* Laptop 1024px */
+@media(min-width: 1024px) and (max-width:1440px)
+{
+   
+
+
+
+
+/* Format Tablette */
+@media(min-width: 332px) and (max-width: 768px)
+{
+.Hebergements{
+    margin-bottom: 20px;
+}
+    
+}
