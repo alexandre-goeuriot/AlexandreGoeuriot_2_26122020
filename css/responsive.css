@@ -85,20 +85,86 @@
     margin-top: 20px;
     margin-bottom: 80px;
     }
-.Filtres h2 {
+    .Filtres h2 {
     margin-right: 8rem;
-}
-
-.Article-Aside{
-    margin-left: 25px;
-}
-
-.Hebergements{
-    margin-bottom: 20px;
-}
-    .Activités  {
-        margin-left: 55px;
-
     }
+    
+    .Article-Aside {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    }
+
+    .Populaires {
+        width: 100%;
+        border-radius: 0;
+        margin-bottom: 20px;
+        }
+
+    .Hebergements{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-bottom: 20px;
+    background: none;
+    }
+
+    .Cartes  {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Images-Cartes {
+    
+        width: 345px;
+    }
+   
+    .Activités, .Titre-Activités{
+        margin-left: 30px;
+    }
+
+    .Activités{
+    display: flex;
+    flex-direction: column;
 }
+
+.Main-Left{
+    display: flex;
+    flex-direction: column;
+}
+
+.Vieux{
+  
+    display: flex;
+    margin-bottom: 20px;
+    height: 220px;
+    flex-direction: column;
+}
+
+.Vieux img {
+    object-fit: cover;
+    height: 160px;
+}
+
+
+
+#Colonne {
+
+    display: flex;
+    flex-direction: column;
+}
+
+Footer h2  {
+    font-size: 1rem;
+    width: 150%;
+}
+
+Footer li  {
+    font-size: 0.7rem;
+    width: 250%;
+}
+
+}
+
  
