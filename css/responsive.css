@@ -1,20 +1,30 @@
 /* 1024px */
 @media(min-width: 768px) and (max-width:1024px)
+
 {
-    
-    body {
-    max-width: 1024px;
-    margin: 5px;
-    
-    }
-    header{
-        max-width: 1024px;
+    .Hebergements{
+        width: 100%;
+        margin-bottom: 20px;
     }
 
-    .Logo-Menu {
-        max-width: 1024px;
+    .Liste-Carte, .Hebergements h2 {
+        margin-left: 170px;
+    }   
+    
+    .Populaires {
+        margin-left: 260px;
     }
-}
+
+    .Activités, .Titre-Activités {
+        margin-left: 190px;
+
+    }
+
+    .Main-Left{
+        margin-bottom: 20px;
+    }
+
+} 
 
 
 /* Format Tablette */
@@ -133,6 +143,7 @@
     margin-bottom: 20px;
     background: none;
     }
+    
 
     .Cartes  {
         width: 85%;
@@ -171,9 +182,8 @@
 
 
 
-
+    
     #Colonne {
-
     display: flex;
     flex-direction: column;
     }
