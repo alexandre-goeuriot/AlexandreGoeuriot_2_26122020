@@ -2,7 +2,7 @@
 @media(min-width: 768px) and (max-width:1024px)
 
 {
-    .Hebergements{
+    #Hebergements{
         width: 100%;
         margin-bottom: 20px;
     }
@@ -15,7 +15,7 @@
         margin-left: 260px;
     }
 
-    .Activités, .Titre-Activités {
+    #Activités, .Titre-Activités {
         margin-left: 190px;
 
     }
@@ -31,14 +31,14 @@
 @media(min-width: 426px) and (max-width: 768px)
 {
 
-    .Hebergements{
+    #Hebergements{
         margin-bottom: 20px;
 
     }
     .Liste-Carte {
         margin-left: 90px;
     }   
-    .Hebergements h2 {
+    #Hebergements h2 {
         margin-left: 90px;
     }   
 
@@ -135,7 +135,7 @@
         width: 90%;
     }
 
-    .Hebergements{
+    #Hebergements{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -155,11 +155,11 @@
         width: 345px;
     }
    
-    .Activités, .Titre-Activités{
+    #Activités, .Titre-Activités{
         margin-left: 30px;
     }
 
-    .Activités, .Main-Left{
+    #Activités, .Main-Left{
     display: flex;
     flex-direction: column;
 }

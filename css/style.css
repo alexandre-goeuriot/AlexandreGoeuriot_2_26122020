@@ -138,7 +138,7 @@ header p {
     border-radius: 100px;
     margin-bottom: 2rem;
     cursor: pointer;
-    transition-duration: 0.2s;
+    transition-duration: 2s;
     font-weight: bold;
     margin-right: 2rem;
  }
@@ -160,6 +160,10 @@ header p {
  .Filtres-Description {
   margin-left: 20px; 
   margin-right: 20px;
+  }
+
+  .Filtres-Description a:hover{
+    color: #0065fc;
   }
 
 .Resultats {
@@ -193,14 +197,14 @@ header p {
 
 /* Article (Hebergements) */
 
-.Hebergements{
+#Hebergements{
   background-color: #f2f2f2;
   width: 880px;
   border-radius: 1.5rem;
   padding: 20px;
 }
 
-.Hebergements h2{
+#Hebergements h2{
   margin-left: 10px;
 }
 
@@ -234,14 +238,14 @@ a {
   margin-bottom: 5px;
 }
 
-.Hebergements h3{
+#Hebergements h3{
   font-weight: bolder;
   margin: 0;
   margin-bottom: 5px;
   margin-left: 10px;
 }
 
-p.Hebergements-Liste {
+#Hebergements-Liste p{
   margin: 0;
   margin-bottom: 5px;
   margin-left: 10px;
@@ -253,6 +257,7 @@ font-weight: bolder;
 
 .Icone-Star {
   margin-left: 10px;
+  color: #f2f2f2;
 }
 .fa-star[data-active=true] {
   color: #0065FC;
@@ -321,7 +326,7 @@ padding: 20px;
 
 /* Activités */
 
-.Activités{
+#Activités{
   display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
@@ -332,11 +337,11 @@ padding: 20px;
 
 
 
-.Activités img{
+#Activités img{
   border-radius: 1.25rem 1.25rem 0 0;
 }
 
-.Activités h3{
+#Activités h3{
   margin-left: 20px;
   font-weight: bolder;
 }
