@@ -38,6 +38,7 @@ nav ul{
 }
 
 nav li{
+  margin-left: 30px;
 }
 
 nav a{
@@ -311,12 +312,16 @@ padding: 20px;
 /* Activités */
 
 #Activités{
+  width: 1390px;
   display: flex;
-  flex-wrap: wrap;
-  column-gap: 70px;
+  justify-content: space-between;
+  margin-left: 30px;
 
 }
 
+.Titre-Activités {
+  margin-left: 30px;
+}
 
 
 #Activités img{
@@ -325,19 +330,17 @@ padding: 20px;
 
 #Activités h3{
   font-weight: bolder;
-}
+  padding-left: 15px;
+  padding-bottom: 15px;
+  }
 
-.Activités-Left {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 70px;
 
-}
+
+
 
 
 .Vieux{
-    width: 300px;
-    height: 520px;
+    justify-content: space-around;
     background-color: white;
     border-radius: 1.25rem;
     box-shadow: 0 0 16px #0000002e;
@@ -345,8 +348,6 @@ padding: 20px;
 }
 
 .Pomegues {
-  width: 300px;
-  height: 290px;
   background-color: white;
   border-radius: 1.25rem;
   box-shadow: 0 0 16px #0000002e;
@@ -354,24 +355,20 @@ padding: 20px;
 }
 
 .Frioul {
-  width: 300px;
-  height: 180px;
   background-color: white;
   border-radius: 1.25rem;
   box-shadow: 0 0 16px #0000002e;
 }
 
 
-.Activités-Right {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 70px;
 
+.Pomegues-Frioul {
+  display: flex;
+  flex-direction: column;
 }
 
+
 .Calanques{
-    width: 300px;
-    height: 520px;
     background-color: white;
     border-radius: 1.25rem;
     box-shadow: 0 0 16px #0000002e;
@@ -380,20 +377,22 @@ padding: 20px;
 
 
 .Garde {
-  width: 300px;
-  height: 230px;
   background-color: white;
   border-radius: 1.25rem;
   box-shadow: 0 0 16px #0000002e;
 }
 
 .Longchamp {
-  width: 300px;
-  height: 250px;
   background-color: white;
   border-radius: 1.25rem;
   box-shadow: 0 0 16px #0000002e;
 }
+
+.Pomegues-Frioul {
+  display: flex;
+  flex-direction: column;
+}
+
 
 /* Footer */
 
