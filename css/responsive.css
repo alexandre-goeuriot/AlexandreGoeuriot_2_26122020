@@ -3,9 +3,17 @@
 
 {
     body{
-        width: 1024px;
+        margin: 0;
     }
 
+    .Main, .Haut, footer {
+        max-width: 1024px;
+        margin: auto;
+      }
+
+    .Haut{
+        padding: 20px;
+    }
     #Hebergements {
         margin-bottom: 20px;
     }
@@ -20,9 +28,10 @@
 /* Format Tablette */
 @media(min-width: 426px) and (max-width: 768px)
 {
-    body{
-        width: 768px;
-    }
+    .Main, .Haut, footer {
+        max-width: 768px;
+        margin: auto;
+      }
 
    
     
@@ -33,10 +42,10 @@
 @media(max-width: 425px)
 
 { 
-    body{
-        width: 425px;
-        margin: 0px;
-    }
+    .Main, .Haut, footer {
+        max-width: 425px;
+        margin: auto;
+      }
 
     .Haut {
         padding: 15px;
@@ -155,7 +164,7 @@
     .Vieux, .Pomegues, .Frioul, .Garde, .Calanques,  .Longchamp{
   
     display: flex;
-    justify-content: flex-start;
+   
 
     margin-bottom: 20px;
     width: 350px;
@@ -185,6 +194,24 @@
     font-size: 0.7rem;
     width: 250%;
     }
+
+    @media(min-width: 320px) and (max-width: 375px)
+{
+    
+    .Main, .Haut, footer {
+        max-width: 320px;
+        margin: auto;
+      }
+    .Images-Cartes {
+        width: 300px;
+    }
+    
+    .Vieux, .Pomegues, .Frioul, .Garde, .Calanques, .Longchamp {
+       
+        width: 320px;
+      
+    }
+
 
     
 }

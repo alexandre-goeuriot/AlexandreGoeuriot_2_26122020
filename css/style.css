@@ -13,10 +13,20 @@
 
 /* Eléments principaux de la page */
 
-body{
-  width: 1440px;
-  font-family: "Raleway";
 
+
+body{
+  font-family: "Raleway";
+  margin: 0px;
+}
+
+.Main, .Haut, footer {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.Haut{
+  padding: 20px;
 }
 
 
@@ -30,9 +40,7 @@ header img{
 width: 100px;
 }
 
-.Haut{
-  padding: 30px;
-}
+
 
 /* Menu de navigation  */
 
@@ -196,6 +204,7 @@ header p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+
 }
 
 /* Article (Hebergements) */
