@@ -2,74 +2,47 @@
 @media(min-width: 768px) and (max-width:1024px)
 
 {
-    #Hebergements{
-        width: 100%;
+    body{
+        width: 1024px;
+    }
+
+    #Hebergements {
         margin-bottom: 20px;
     }
 
-    .Liste-Carte, .Hebergements h2 {
-        margin-left: 170px;
-    }   
+    .Titre-Activités {
+        display: flex;
+        justify-content: center;
+      }
     
-    .Populaires {
-        margin-left: 260px;
-    }
-
-    #Activités, .Titre-Activités {
-        margin-left: 190px;
-
-    }
-
-    .Main-Left{
-        margin-bottom: 20px;
-    }
-
 } 
-
 
 /* Format Tablette */
 @media(min-width: 426px) and (max-width: 768px)
 {
-
-    #Hebergements{
-        margin-bottom: 20px;
-
-    }
-    .Liste-Carte {
-        margin-left: 90px;
-    }   
-    #Hebergements h2 {
-        margin-left: 90px;
-    }   
-
-    a.Plus {
-    margin-left: 90px;
-    }   
-
-    .Populaires {
-        margin-left: 130px;
+    body{
+        width: 768px;
     }
 
-    .Activités {
-        margin-left: 50px;
-     }
+   
+    
+} 
 
-    .Titre-Activités {
-        margin-left: 50px;
-    }
-
-    .Activités-Left {
-        margin-bottom: 20px;
-    }
-}
- /* Format Smartphone */
+/* Format Smartphone */
 
 @media(max-width: 425px)
 
 { 
-    header, .Filtres, .Resultats, .formulaire{
-    margin: 10px;
-}
+    body{
+        width: 425px;
+        margin: 0px;
+    }
+
+    .Haut {
+        padding: 15px;
+    }
+
+    
     
     .Sinscrire_Bouton{
         position: relative;
@@ -112,12 +85,21 @@
     
 
    .Logo-Menu {
-    margin-top: 20px;
     margin-bottom: 80px;
     }
-    .Filtres h2 {
-    margin-right: 8rem;
+    
+    .Filtres {
+        width: 50px;
+        display: flex;
+        flex-direction: column;
     }
+
+    .Liste-Filtres {
+        margin-bottom: 10px;
+
+    }
+    
+
     
     .Article-Aside {
     display: flex;
@@ -125,29 +107,35 @@
     justify-content: space-between;
     }
 
+   
     .Populaires {
         width: 100%;
         border-radius: 0;
-        margin-bottom: 20px;
+        
         }
 
     .Cartes-Populaires{
         width: 90%;
     }
 
+    .Titre-Populaires{
+        width: 85%;
+
+    }
+
     #Hebergements{
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-content: center;
-    margin-bottom: 20px;
     background: none;
     }
     
+    .Liste-Carte {
+       justify-content: flex-start;
+    }
 
     .Cartes  {
         width: 85%;
-        height: 100%;
     }
 
     .Images-Cartes {
@@ -155,13 +143,11 @@
         width: 345px;
     }
    
-    #Activités, .Titre-Activités{
-        margin-left: 30px;
-    }
-
+    
     #Activités, .Main-Left{
     display: flex;
     flex-direction: column;
+
 }
 
 
@@ -169,6 +155,8 @@
     .Vieux, .Pomegues, .Frioul, .Garde, .Calanques,  .Longchamp{
   
     display: flex;
+    justify-content: flex-start;
+
     margin-bottom: 20px;
     width: 350px;
     height: 220px;
@@ -201,17 +189,3 @@
     
 }
 
-
-@media(min-width: 320px) and (max-width: 375px)
-{
-    
-    .Images-Cartes {
-        width: 300px;
-    }
-    
-    .Vieux, .Pomegues, .Frioul, .Garde, .Calanques, .Longchamp {
-       
-        width: 320px;
-      
-    }
-}

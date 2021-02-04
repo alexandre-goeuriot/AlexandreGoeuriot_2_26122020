@@ -14,10 +14,11 @@
 /* Eléments principaux de la page */
 
 body{
-  max-width: 1440px;
-  padding: 0;
+  width: 1440px;
   font-family: "Raleway";
+
 }
+
 
 .Logo-Menu{
 display: flex;
@@ -27,6 +28,10 @@ align-items: center;
 
 header img{
 width: 100px;
+}
+
+.Haut{
+  padding: 30px;
 }
 
 /* Menu de navigation  */
@@ -70,6 +75,8 @@ header h1{
 header p {
   font-size: 15px;
 }
+
+
 
 /* Formulaire de recherche */
 
@@ -202,7 +209,7 @@ header p {
 }
 
 #Hebergements h2{
-
+  align-items: center;
 }
 
 .Liste-Carte{
@@ -235,14 +242,7 @@ a {
 
 }
 
-#Hebergements h3 {
-margin: 0px;
-}
 
-p.Hebergements-Liste {
-  margin: 0px;
-
-}
 
 .strong {
 font-weight: bolder;
@@ -312,16 +312,24 @@ padding: 20px;
 /* Activités */
 
 #Activités{
-  width: 1390px;
   display: flex;
-  justify-content: space-between;
-  margin-left: 30px;
-
-}
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 10px;
+  }
 
 .Titre-Activités {
   margin-left: 30px;
 }
+
+.Activités_Left, .Activités_Right {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  column-gap: 60px;
+}
+
 
 
 #Activités img{
@@ -337,10 +345,7 @@ padding: 20px;
 
 
 
-
-
 .Vieux{
-    justify-content: space-around;
     background-color: white;
     border-radius: 1.25rem;
     box-shadow: 0 0 16px #0000002e;
@@ -362,10 +367,7 @@ padding: 20px;
 
 
 
-.Pomegues-Frioul {
-  display: flex;
-  flex-direction: column;
-}
+
 
 
 .Calanques{
@@ -388,10 +390,7 @@ padding: 20px;
   box-shadow: 0 0 16px #0000002e;
 }
 
-.Pomegues-Frioul {
-  display: flex;
-  flex-direction: column;
-}
+
 
 
 /* Footer */
@@ -412,6 +411,7 @@ footer h2{
   display: flex;
   justify-content: space-between;
   font-weight: bolder;
+  
   }
   
 footer ul{

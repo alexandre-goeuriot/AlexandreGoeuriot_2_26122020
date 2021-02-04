@@ -9,65 +9,67 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     </head>
 <body>
-    <header>
-        <div class="Logo-Menu">
-            <img src="css/images/logo/Reservia@3x.png" alt="Logo Reservia" />
-            <nav>
-                <ul>
-                    <li class="Hebergements_Bouton"><a href="#Hebergements">Hebergements</a></li>
-                    <li class="Activités_Bouton"><a href="#Activités">Activités</a></li>
-                    <li class="Sinscrire_Bouton"><a href="#Sincrire">S'inscrire</a></li>
-                </ul>
-            </nav>
-        </div>        
-            <h1>Trouvez votre hebergement pour des vacances de reve</h1>    
-            <p>En plein centre ville ou en pleine nature</p>
-    </header>
+    <div class="Haut">
+        <header>
+            <div class="Logo-Menu">
+                <img src="css/images/logo/Reservia@3x.png" alt="Logo Reservia" />
+                <nav>
+                    <ul>
+                        <li class="Hebergements_Bouton"><a href="#Hebergements">Hebergements</a></li>
+                        <li class="Activités_Bouton"><a href="#Activités">Activités</a></li>
+                        <li class="Sinscrire_Bouton"><a href="#Sincrire">S'inscrire</a></li>
+                    </ul>
+                </nav>
+            </div>        
+                <h1>Trouvez votre hebergement pour des vacances de reve</h1>    
+                <p>En plein centre ville ou en pleine nature</p>
+        </header>
 
-    <section>
-        <form class="formulaire">
-            <div class="Icone-Map">
-                <i class="fas fa-map-marker-alt"></i>
-            </div>
-            <input type="search" placeholder="Marseille, France" class="votre-ville"/>
-            <input type="submit" value="Rechercher" class="Rechercher"/>
-        </form>
-    </section>
+        <section>
+            <form class="formulaire">
+                <div class="Icone-Map">
+                 <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <input type="search" placeholder="Marseille, France" class="votre-ville"/>
+                <input type="submit" value="Rechercher" class="Rechercher"/>
+            </form>
+        </section>
 
-    <section class="Filtres">
-        <h2>Filtres</h2>
+        <section class="Filtres">
+            <h2>Filtres</h2>
 
-        <div class="Liste-Filtres">  
-            <div class="Filtres-Icon">
-                <i class="fas fa-money-bill-wave"></i>
-            </div>
-                <span class="Filtres-Description"><a>Economique</a></span>
-        </div>    
-        <div class="Liste-Filtres">  
-            <div class="Filtres-Icon">
-                <i class="fas fa-child"></i>            
-            </div>
+            <div class="Liste-Filtres">  
+                <div class="Filtres-Icon">
+                    <i class="fas fa-money-bill-wave"></i>
+                </div>
+                    <span class="Filtres-Description"><a>Economique</a></span>
+            </div>    
+            <div class="Liste-Filtres">  
+                <div class="Filtres-Icon">
+                    <i class="fas fa-child"></i>            
+                </div>
                 <span class="Filtres-Description"><a>Famillial</a></span>
-        </div> 
-        <div class="Liste-Filtres">  
-            <div class="Filtres-Icon">
-                <i class="fas fa-heart"></i>
-            </div>
-                 <span class="Filtres-Description"><a>Romantique</a></span>
-        </div>    
-        <div class="Liste-Filtres">  
-            <div class="Filtres-Icon">
-                 <i class="fas fa-dog"></i>
-            </div>
+            </div> 
+            <div class="Liste-Filtres">  
+                <div class="Filtres-Icon">
+                 <i class="fas fa-heart"></i>
+                </div>
+                <span class="Filtres-Description"><a>Romantique</a></span>
+            </div>    
+            <div class="Liste-Filtres">  
+                <div class="Filtres-Icon">
+                    <i class="fas fa-dog"></i>
+                </div>
                 <span class="Filtres-Description"><a>Animaux autorisés</a></span>
-        </div>
-    </section>
-    <section class="Resultats">
-        <div class="Icone-Info">
-            <i class="fas fa-info"></i>
-        </div>
-        <p>Plus de 500 logements sont disponibles dans cette ville</p>
-    </section>
+            </div>
+        </section>
+        <section class="Resultats">
+            <div class="Icone-Info">
+                <i class="fas fa-info"></i>
+            </div>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </section>
+    </div>    
     <section class="Article-Aside">
         <div id="Hebergements">
                 <h2>Hebergements à Marseille</h2>
@@ -220,13 +222,15 @@
     </section>
     <h2 class="Titre-Activités">Activités à Marseille</h2>
     <section id="Activités">
-
-                <a href="#">
+        <div class="Activités_Left">
+            <div class="Main_Left">
+                <a href="#">    
                     <div class="Vieux">
                         <img src='css/images/activites/vieux-port.jpg' alt='Photo du vieux port de Marseille'/>
                         <h3>Vieux port</h3>
                     </div>
                 </a>
+            </div>
             <div class="Pomegues-Frioul">
                 <a href="#">
                     <div class="Pomegues">
@@ -241,47 +245,54 @@
                     </div>
                 </a>
             </div>
+        </div>    
+        <div class="Activités_Right">
+            <div class="Main-Right">
                 <a href="#">
                     <div class="Calanques">
-                        <img src='css/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg' alt=''/>
+                        <img src='css/images/activites/Calanques.jpg' alt=''/>
                         <h3>Parc National des Calanques</h3>
                     </div>
                 </a>
+            </div>    
             <div class="Garde-Longchamp">
                 <a href="#">
                     <div class="Garde">
-                        <img src='css/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg' alt=''/>
+                        <img src='css/images/activites/Garde.jpg' alt=''/>
                         <h3>Notre-Dame-de-la-Garde</h3>
                     </div>
                 </a>
                 <a href="#">
                     <div class="Longchamp">
-                        <img src='css/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg' alt=''/>
+                        <img src='css/images/activites/Longchamp.jpg' alt=''/>
                         <h3>Parc Longchamp</h3>
                     </div>
                 </a>
             </div>
+        </div>    
     </section>
     <footer>
         <div id="Colonne">
             <div class="A_Propos">
-                <h2>A propos</h2>
+                
                 <Ul>
+                    <li><a href="#" class="Colonne-footer"><h2>A propos</h2></a></li>
                     <li><a href="#" class="Colonne-footer">Fonctionnement du site</a></li>
                     <li><a href="#" class="Colonne-footer">Conditions générales de vente</a></li>
                  <li><a href="#" class="Colonne-footer">Données et confidentialité</a></li>
                 </Ul>
             </div>
             <div class="Nos_hebergements">
-                <h2>Nos hebergements</h2>
                 <ul>
+                    <li><a href="#" class="Colonne-footer"><h2>Nos hébergements</h2></a></li>
                     <li><a href="#" class="Colonne-footer">Charte qualité</a></li>
                     <li><a href="#" class="Colonne-footer">Soumettre votre hôtel</a></li>
                 </ul>
             </div>
             <div class="Assistance">
-                <h2>Assistance</h2>
+                
                 <ul>
+                    <li><a href="#" class="Colonne-footer"><h2>Assistance</h2></a></li>
                     <li><a href="#" class="Colonne-footer">Centre d'aide</a></li>
                     <li><a href="#" class="Colonne-footer">Nous contacter</a></li>
                 </ul>
