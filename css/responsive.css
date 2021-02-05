@@ -14,10 +14,25 @@
     .Haut{
         padding: 20px;
     }
-    #Hebergements {
+
+    .Article-Aside {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        }
+    #Hebergements, .Populaires {
         margin-bottom: 20px;
     }
 
+   
+
+    .Populaires{
+        width: 40%;
+    }
+
+    .Cartes{
+        width: auto;
+    }
     .Titre-Activités {
         display: flex;
         justify-content: center;
@@ -42,7 +57,7 @@
 @media(max-width: 425px)
 
 { 
-    .Main, .Haut, footer {
+    .Main, .Haut, footer, {
         max-width: 425px;
         margin: auto;
       }
@@ -97,8 +112,21 @@
     margin-bottom: 80px;
     }
     
+    .votre-ville {
+        width: 45%;
+    }
+
+    .Icone-Map{
+        width: 10%;
+    }
+
+    .Rechercher {
+        width: 30%;
+
+    }
+
     .Filtres {
-        width: 50px;
+        width: 45%;
         display: flex;
         flex-direction: column;
     }
@@ -107,8 +135,8 @@
         margin-bottom: 10px;
 
     }
-    
 
+    
     
     .Article-Aside {
     display: flex;
@@ -116,103 +144,51 @@
     justify-content: space-between;
     }
 
-   
     .Populaires {
-        width: 100%;
-        border-radius: 0;
-        
-        }
-
-    .Cartes-Populaires{
-        width: 90%;
-    }
-
-    .Titre-Populaires{
-        width: 85%;
-
+    width: auto;
+    border-radius: 0;
     }
 
     #Hebergements{
-    width: 100%;
+    width: auto;
     display: flex;
     flex-direction: column;
+    align-content: center;
+    margin-bottom: 20px;
     background: none;
     }
+
+
+    .Cartes{
+        width: 80%;
+    }
     
-    .Liste-Carte {
-       justify-content: flex-start;
+    #Activités {
+       
+        width: 100%;
     }
-
-    .Cartes  {
-        width: 85%;
-    }
-
-    .Images-Cartes {
     
-        width: 345px;
-    }
-   
-    
-    #Activités, .Main-Left{
-    display: flex;
-    flex-direction: column;
-
-}
-
-
-
-    .Vieux, .Pomegues, .Frioul, .Garde, .Calanques,  .Longchamp{
-  
-    display: flex;
-   
-
-    margin-bottom: 20px;
-    width: 350px;
-    height: 220px;
-    flex-direction: column;
+    #Activités img{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
     }
 
-    .Vieux img, .Pomegues img, .Frioul img, .Garde img, .Calanques img,  .Longchamp img {
-    object-fit: cover;
-    height: 160px;
-    }
-
-
-
-    
     #Colonne {
     display: flex;
     flex-direction: column;
-    }
-
+    width: auto;
+        }
     Footer h2  {
     font-size: 1rem;
-    width: 150%;
+    width: 160px;
     }
-
+        
     Footer li  {
     font-size: 0.7rem;
-    width: 250%;
+    width: 160px;
     }
-
-    @media(min-width: 320px) and (max-width: 375px)
-{
-    
-    .Main, .Haut, footer {
-        max-width: 320px;
-        margin: auto;
-      }
-    .Images-Cartes {
-        width: 300px;
-    }
-    
-    .Vieux, .Pomegues, .Frioul, .Garde, .Calanques, .Longchamp {
-       
-        width: 320px;
-      
-    }
-
-
+        
     
 }
 

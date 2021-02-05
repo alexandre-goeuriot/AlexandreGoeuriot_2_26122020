@@ -211,7 +211,7 @@ header p {
 
 #Hebergements{
   background-color: #f2f2f2;
-  width: 840px;
+  width: 60%;
   border-radius: 1.5rem;
   padding: 20px;
  
@@ -228,7 +228,7 @@ justify-content: space-around;
 }
 
 .Cartes{
-  width: 250px;
+  width: 29%;
   background-color: white;
   border-radius: 1.25rem;
   box-shadow: 0 0 16px #0000002e;
@@ -248,6 +248,7 @@ a {
 .Images-Cartes {
   border-radius: 1rem 1rem 0 0;
   object-fit: cover;
+  width: 100%;
 
 }
 
@@ -273,7 +274,7 @@ a.Plus{
 
 .Populaires {
 background-color: #f2f2f2;
-width: 380px;
+width: 25%;
 border-radius: 1.5rem;
 padding: 20px;
 }
@@ -290,7 +291,7 @@ padding: 20px;
 
 .Cartes-Wrap {
   display: flex;
-  width: 350px;
+  width: 95%;
   background-color: white;
   border-radius: 1.25rem;
   box-shadow: 0 0 16px #0000002e;
