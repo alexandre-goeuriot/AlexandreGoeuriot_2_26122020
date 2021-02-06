@@ -57,63 +57,36 @@
 @media(max-width: 425px)
 
 { 
-    .Main, .Haut, footer, {
-        max-width: 425px;
-        margin: auto;
-      }
+    .Main, .Haut, footer {
+    max-width: 425px;
+    margin: auto;
+    }
 
     .Haut {
         padding: 15px;
     }
 
-    
-    
-    .Sinscrire_Bouton{
-        position: relative;
-        top: 5px;
-        padding-right: 0;
-    }
-
-    nav ul .Hebergements_Bouton
-    {
-        position: absolute;
+    .Logo-Menu{
+        height: 200px;
         display: flex;
-        top: 100px;
-        left: 10px;
-        align-content: center;
-        justify-content:center;
-        border-bottom: 4px solid #3D00FF;
-        padding:0 40px;
-        margin-left: 0px;
-
-
+        align-items: flex-start
+        
     }
 
     
-    
-    nav ul .Activités_Bouton
-    {
-        position: absolute;
-        display: flex;
-        justify-content: space-around;
-        top: 100px;
-        align-content: center;
-        justify-content: center;
-        border-bottom: 4px solid black;
-        padding:0 25px;
-        margin-left: 0px;
+    .Sinscrire_Bouton  {
+        background-color: aqua;
+        order: -2;
+        }
 
-
+    .Hebergements_Bouton {
+        align-self: flex-end;
     }
-
     
-
-   .Logo-Menu {
-    margin-bottom: 80px;
-    }
+    
     
     .votre-ville {
-        width: 45%;
+        width: 50%;
     }
 
     .Icone-Map{
@@ -124,6 +97,8 @@
         width: 30%;
 
     }
+    
+   
 
     .Filtres {
         width: 45%;

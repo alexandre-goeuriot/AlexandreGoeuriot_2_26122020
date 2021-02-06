@@ -29,6 +29,7 @@ body{
   padding: 20px;
 }
 
+/* Menu de navigation  */
 
 .Logo-Menu{
 display: flex;
@@ -40,37 +41,30 @@ header img{
 width: 100px;
 }
 
-
-
-/* Menu de navigation  */
-
-nav ul{
-  list-style-type: none;
-  justify-content: space-between;
+.Menu {
   display: flex;
+  font-size: 20px;
+  padding-bottom: 3px;
+  text-decoration: none;
+  align-items: center;
 }
 
-nav li{
+
+
+
+.Sinscrire_Bouton, .Activités_Bouton{
   margin-left: 30px;
 }
-
-nav a{
-    font-size: 20px;
-    padding-bottom: 3px;
-    text-decoration: none;
-    font-family: "Raleway";
-    color: #0065fc;
-}
-
-nav a:hover{
+.Menu a:hover{
   color: #0065fc;
   border-top: 3px solid #0065fc;
   padding-top: 30px;
 
 }
 
-nav ul .Activités_Bouton a{
-  color: #181818;
+.Sinscrire_Bouton, .Hebergements_Bouton {
+  color: #0065fc;
+ 
   
 }
 
