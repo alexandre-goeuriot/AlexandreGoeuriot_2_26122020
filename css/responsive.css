@@ -66,24 +66,44 @@
         padding: 15px;
     }
 
-    .Logo-Menu{
+    header{
         height: 200px;
-        display: flex;
-        align-items: flex-start
-        
-    }
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;    }
 
     
+   .Logo{
+      grid-column-start: 1;
+      padding: 10px;
+   }
+  
     .Sinscrire_Bouton  {
-        background-color: aqua;
-        order: -2;
+        grid-column-start: 4;
+        padding: 10px;
+
+       
         }
 
     .Hebergements_Bouton {
-        align-self: flex-end;
+        grid-column-start: 1;
+
+        grid-row-start: 2;
+        padding: 10px;
+        width: 85%;
+        border-bottom: 3px solid #0065FC;
+
+
     }
     
-    
+    .Activités_Bouton {
+        grid-row-start: 2;
+        grid-column-start: 4;
+        padding: 10px;
+        width: 75%;
+        border-bottom: 3px solid #f2f2f2;
+
+    }
     
     .votre-ville {
         width: 50%;

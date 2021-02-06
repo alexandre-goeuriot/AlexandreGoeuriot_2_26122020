@@ -31,31 +31,56 @@ body{
 
 /* Menu de navigation  */
 
-.Logo-Menu{
-display: flex;
-justify-content: space-between;
-align-items: center;
+header{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
 }
+
+.Logo{
+grid-column-start: 1;
+}
+
+
+
+.Sinscrire_Bouton  {
+    grid-column-start: 5;
+    padding: 20px;
+    text-align: center;
+
+
+   
+    }
+
+.Hebergements_Bouton {
+    grid-column-start: 3;
+    padding: 20px;
+    text-align: center;
+
+
+
+
+}
+
+.Activités_Bouton {
+    grid-column-start: 4;
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+
+
+ 
+
+
 
 header img{
 width: 100px;
 }
 
-.Menu {
-  display: flex;
-  font-size: 20px;
-  padding-bottom: 3px;
-  text-decoration: none;
-  align-items: center;
-}
-
-
-
-
-.Sinscrire_Bouton, .Activités_Bouton{
-  margin-left: 30px;
-}
-.Menu a:hover{
+header a:hover{
   color: #0065fc;
   border-top: 3px solid #0065fc;
   padding-top: 30px;
@@ -319,7 +344,6 @@ padding: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-left: 10px;
   }
 
 .Titre-Activités {
