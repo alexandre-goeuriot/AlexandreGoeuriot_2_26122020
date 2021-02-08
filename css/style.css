@@ -10,10 +10,7 @@
   font-weight: normal;
 }
 
-
 /* Eléments principaux de la page */
-
-
 
 body{
   font-family: "Raleway";
@@ -41,40 +38,23 @@ header{
 grid-column-start: 1;
 }
 
-
-
 .Sinscrire_Bouton  {
     grid-column-start: 5;
     padding: 20px;
     text-align: center;
-
-
-   
     }
 
 .Hebergements_Bouton {
     grid-column-start: 3;
     padding: 20px;
     text-align: center;
-
-
-
-
 }
 
 .Activités_Bouton {
     grid-column-start: 4;
     padding: 20px;
     text-align: center;
-
-
 }
-
-
-
- 
-
-
 
 header img{
 width: 100px;
@@ -84,26 +64,21 @@ header a:hover{
   color: #0065fc;
   border-top: 3px solid #0065fc;
   padding-top: 30px;
-
 }
 
 .Sinscrire_Bouton, .Hebergements_Bouton {
   color: #0065fc;
- 
-  
 }
 
-header h1{
+.Haut h1{
   font-family: "Raleway";
   font-size: 1.4em;
   font-weight: bolder;
 }
 
-header p {
+.Haut p {
   font-size: 15px;
 }
-
-
 
 /* Formulaire de recherche */
 
@@ -157,6 +132,7 @@ header p {
 .Filtres{
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 
  .Filtres h2{
@@ -214,7 +190,6 @@ header p {
     justify-content: center;
     color: #0065fc;
     margin-right: 10px;
-
 }
 
 /* section Article-Aside */
@@ -223,7 +198,6 @@ header p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-
 }
 
 /* Article (Hebergements) */
@@ -233,7 +207,6 @@ header p {
   width: 60%;
   border-radius: 1.5rem;
   padding: 20px;
- 
 }
 
 #Hebergements h2{
@@ -254,8 +227,6 @@ justify-content: space-around;
   margin-bottom: 20px;
   box-sizing: border-box;
   padding: 5px;
-
-
 }
 
 a {
@@ -268,10 +239,7 @@ a {
   border-radius: 1rem 1rem 0 0;
   object-fit: cover;
   width: 100%;
-
 }
-
-
 
 .strong {
 font-weight: bolder;
@@ -289,7 +257,6 @@ a.Plus{
 }
 
 /* Aside (populaires) */
-
 
 .Populaires {
 background-color: #f2f2f2;
@@ -333,7 +300,6 @@ padding: 20px;
 .Populaires h3{
   font-weight: bolder;
   margin: 0px;
-
 }
 
 
@@ -358,8 +324,6 @@ padding: 20px;
   column-gap: 60px;
 }
 
-
-
 #Activités img{
   border-radius: 1.25rem 1.25rem 0 0;
 }
@@ -370,21 +334,16 @@ padding: 20px;
   padding-bottom: 15px;
   }
 
-
-
-
 .Vieux{
     background-color: white;
     border-radius: 1.25rem;
     box-shadow: 0 0 16px #0000002e;
-
 }
 
 .Pomegues {
   background-color: white;
   border-radius: 1.25rem;
   box-shadow: 0 0 16px #0000002e;
-
 }
 
 .Frioul {
@@ -393,18 +352,11 @@ padding: 20px;
   box-shadow: 0 0 16px #0000002e;
 }
 
-
-
-
-
-
 .Calanques{
     background-color: white;
     border-radius: 1.25rem;
     box-shadow: 0 0 16px #0000002e;
 }
-
-
 
 .Garde {
   background-color: white;
@@ -417,9 +369,6 @@ padding: 20px;
   border-radius: 1.25rem;
   box-shadow: 0 0 16px #0000002e;
 }
-
-
-
 
 /* Footer */
 
@@ -434,12 +383,10 @@ footer{
   width: auto;
 }
 
-
 footer h2{
   display: flex;
   justify-content: space-between;
   font-weight: bolder;
-  
   }
   
 footer ul{

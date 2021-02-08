@@ -20,11 +20,10 @@
         flex-direction: column-reverse;
         align-items: center;
         }
+
     #Hebergements, .Populaires {
         margin-bottom: 20px;
     }
-
-   
 
     .Populaires{
         width: 40%;
@@ -33,6 +32,7 @@
     .Cartes{
         width: auto;
     }
+
     .Titre-Activités {
         display: flex;
         justify-content: center;
@@ -47,15 +47,11 @@
         max-width: 768px;
         margin: auto;
       }
-
-   
-    
 } 
 
 /* Format Smartphone */
 
 @media(max-width: 425px)
-
 { 
     .Main, .Haut, footer {
     max-width: 425px;
@@ -92,8 +88,6 @@
         padding: 10px;
         width: 85%;
         border-bottom: 3px solid #0065FC;
-
-
     }
     
     .Activités_Bouton {
@@ -102,7 +96,6 @@
         padding: 10px;
         width: 75%;
         border-bottom: 3px solid #f2f2f2;
-
     }
     
     .votre-ville {
@@ -115,23 +108,18 @@
 
     .Rechercher {
         width: 30%;
-
     }
-    
-   
 
     .Filtres {
         width: 45%;
         display: flex;
-        flex-direction: column;
+        
     }
 
     .Liste-Filtres {
         margin-bottom: 10px;
 
     }
-
-    
     
     .Article-Aside {
     display: flex;
@@ -153,7 +141,6 @@
     background: none;
     }
 
-
     .Cartes{
         width: 80%;
     }
@@ -174,6 +161,7 @@
     flex-direction: column;
     width: auto;
         }
+
     Footer h2  {
     font-size: 1rem;
     width: 160px;
@@ -183,7 +171,6 @@
     font-size: 0.7rem;
     width: 160px;
     }
-        
     
 }
 
