@@ -35,29 +35,29 @@ header{
 }
 
 .Logo{
-grid-column-start: 1;
+  grid-column-start: 1;
 }
 
 .Sinscrire_Bouton  {
-    grid-column-start: 5;
-    padding: 20px;
-    text-align: center;
-    }
+  grid-column-start: 5;
+  padding: 20px;
+  text-align: center;
+}
 
 .Hebergements_Bouton {
-    grid-column-start: 3;
-    padding: 20px;
-    text-align: center;
+  grid-column-start: 3;
+  padding: 20px;
+  text-align: center;
 }
 
 .Activités_Bouton {
-    grid-column-start: 4;
-    padding: 20px;
-    text-align: center;
+  grid-column-start: 4;
+  padding: 20px;
+  text-align: center;
 }
 
 header img{
-width: 100px;
+  width: 100px;
 }
 
 header a:hover{
@@ -141,7 +141,6 @@ header a:hover{
   display: none;
   align-items: center;
   justify-content: center
-  
 }
 
 /* Filtres */
@@ -198,15 +197,15 @@ header a:hover{
 }
 
 .Icone-Info{
-    height: 30px;
-    width: 30px;
-    border: solid 1px #d9d9d9;
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #0065fc;
-    margin-right: 10px;
+  height: 30px;
+  width: 30px;
+  border: solid 1px #d9d9d9;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0065fc;
+  margin-right: 10px;
 }
 
 /* section Article-Aside */
@@ -231,9 +230,9 @@ header a:hover{
 }
 
 .Liste-Carte{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .Cartes{
@@ -259,7 +258,7 @@ a {
 }
 
 .strong {
-font-weight: bolder;
+  font-weight: bolder;
 }
 
 .Icone-Star, .Populaires-Icone-Star{
@@ -276,10 +275,10 @@ a.Plus{
 /* Aside (populaires) */
 
 .Populaires {
-background-color: #f2f2f2;
-width: 25%;
-border-radius: 1.5rem;
-padding: 20px;
+  background-color: #f2f2f2;
+  width: 25%;
+  border-radius: 1.5rem;
+  padding: 20px;
 }
 
 .Titre-Populaires {
@@ -352,9 +351,9 @@ padding: 20px;
   }
 
 .Vieux{
-    background-color: white;
-    border-radius: 1.25rem;
-    box-shadow: 0 0 16px #0000002e;
+  background-color: white;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 16px #0000002e;
 }
 
 .Pomegues {
@@ -370,9 +369,9 @@ padding: 20px;
 }
 
 .Calanques{
-    background-color: white;
-    border-radius: 1.25rem;
-    box-shadow: 0 0 16px #0000002e;
+  background-color: white;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 16px #0000002e;
 }
 
 .Garde {

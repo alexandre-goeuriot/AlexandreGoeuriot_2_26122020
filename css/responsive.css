@@ -9,7 +9,7 @@
     .Main, .Haut, footer {
         max-width: 1024px;
         margin: auto;
-      }
+    }
 
     .Haut{
         padding: 20px;
@@ -19,7 +19,7 @@
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        }
+    }
 
     #Hebergements, .Populaires {
         margin-bottom: 20px;
@@ -65,24 +65,24 @@
     header{
         display: grid;
         grid-template-columns: 1fr 1fr ;
-        grid-template-rows: 1fr 1fr;    }
+        grid-template-rows: 1fr 1fr;    
+    }
 
     
    .Logo{
       grid-column-start: 1;
       padding: 30px;
-   }
+    }
   
     .Sinscrire_Bouton  {
         grid-column-start: 2;
         padding: 10px;
 
        
-        }
+    }
 
     .Hebergements_Bouton {
         grid-column-start: 1;
-
         grid-row-start: 2;
         padding: 10px;
         width: 85%;
@@ -121,7 +121,6 @@
 
     .Liste-Filtres {
         margin-bottom: 10px;
-
     }
     
     .Article-Aside {
@@ -153,7 +152,6 @@
 
     
     #Activités {
-       
         width: 100%;
     }
     
