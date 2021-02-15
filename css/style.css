@@ -1,19 +1,9 @@
-@font-face {
-  font-family: "Raleway";
-  src: url("polices/raleway.eot"),
-       url("polices/raleway.eot#?iefix") format('embedded-opentype'),
-       url("polices/Raleway/raleway.woff") format('woff'), 
-       url("polices/raleway.ttf") format('truetype'), 
-       url("polices/raleway.svg") format('svg'); 
 
-  font-style: normal;
-  font-weight: normal;
-}
 
 /* Eléments principaux de la page */
 
 body{
-  font-family: "Raleway";
+  font-family: 'Raleway', sans-serif;
   margin: 0px;
 }
 
