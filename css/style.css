@@ -147,7 +147,7 @@ header a:hover{
   margin-right: 20px;
  }
 
- .Liste-Filtres {
+ .FiltreEconomique, .FiltreAnimaux, .FiltreRomantique, .FiltreFamillial {
     display: flex;
     align-items: center;
     border: 2px solid #d9d9d9;

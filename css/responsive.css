@@ -132,10 +132,38 @@
     }
 
     .Filtres {
-        width: 75%;
-        display: flex;
-        
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;    
+    
     }
+
+    .FiltreTitre {
+        grid-column-start: 1;
+    }
+
+    .FiltreEconomique {
+    grid-column-start: 1;
+    grid-row-start: 2; }
+
+   
+    
+    .FiltreFamillial { 
+    grid-column-start: 2;
+    grid-row-start: 2; 
+    }
+
+    .FiltreAnimaux {
+    grid-column-start: 1;
+    grid-row-start: 4; 
+    width: 120%;
+    }
+
+    .FiltreRomantique {
+    grid-column-start: 1;
+    grid-row-start: 3; 
+    }
+
 
     .Liste-Filtres {
         margin-bottom: 10px;
