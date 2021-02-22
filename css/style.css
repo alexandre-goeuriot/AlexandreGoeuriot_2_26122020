@@ -7,13 +7,18 @@ body{
   margin: 0px;
 }
 
-.Main, .Haut, footer {
+.Main,  footer {
   max-width: 1440px;
   margin: auto;
 }
 
+.Haut {
+  max-width: 1380px;
+  margin: auto;
+}
+
 .Haut{
-  padding: 20px;
+  padding: 20px 0px 10px 20px;
 }
 
 /* Menu de navigation  */
@@ -384,6 +389,8 @@ footer{
 
 footer li {
   color: #5b5b5b;
+  margin-bottom: 20px;
+
 }
 
 #Colonne{

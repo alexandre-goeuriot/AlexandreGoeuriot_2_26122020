@@ -17,7 +17,11 @@
 
     .Article-Aside {
        
-        align-items: center;}
+        align-items: center;
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
        
     
     #Hebergements{
@@ -218,6 +222,7 @@
     Footer li  {
     font-size: 0.7rem;
     width: 160px;
+
     }
     
 }
